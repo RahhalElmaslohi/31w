@@ -27,8 +27,8 @@
         <?php
             if ( have_posts() ) :
                 while ( have_posts() ) :
-                    the_title();
-                    the_content();
+                    the_title('<p>','</p>');
+                    the_content(null,true);
 				    the_post();
                 endwhile;
             endif;
