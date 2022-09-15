@@ -21,9 +21,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon WP</title>
+    <style>
+        body{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+h1{
+	background-color: aqua;
+	color: bisque;
+	font-size: 2rem;
+}
+    </style>
 </head>
 <body>
     <main>
+        test
         <?php
             if ( have_posts() ) :
                 while ( have_posts() ) :
